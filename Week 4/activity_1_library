@@ -1,0 +1,20 @@
+# Activity 1
+import datetime
+
+today = datetime.date.today()
+
+dob = datetime.date(1997, 6, 15)
+
+alive_for = (today - dob).days
+
+print(alive_for)
+# print(f"I have been alive for {alive_for} days")
+
+# Activity 2
+# Not confident with this topic, need to go through the recordings and slides once again to understand better both activities and what the question is asking.
+# Understand that to create a Random number generator, we are able to get the function for this that's insalled on other Python libraries
+# to use the function we must import it. random.randint is what is used to generate whole intergers
+# colorama- comes from downloading more libraires using pip. Need to store locally (already done) within magic8,
+# i think this is because the progamme/code we're creating, it tells that programme that it is dependant on (whatever library)
+# is being used. We need to keep any libraies added within the Virtual environment, so it knows that what it needs to run properly.
+# if added globally, any changed made to the library can affect our programme. The vistual environemnt keeps that safe in a folder.

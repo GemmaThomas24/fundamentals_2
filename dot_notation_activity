@@ -1,0 +1,55 @@
+# Activity 1
+print("     l     l     l")
+print("     l     l     l")
+print("     l     l     l")
+print("---------------------")
+print("     l     l     l")
+print("     l     l     l")
+print("     l     l     l")
+print("---------------------")
+print("     l     l     l")
+print("     l     l     l")
+print("     l     l     l")
+print("---------------------")
+
+# Activity 2
+print("The cat in the hat")
+
+print("The cat in the hat".upper())
+# method changes string from lowercase to uppercase
+
+print("The cat in the hat".lower())
+# method changes string to lowercase
+
+print("The cat in the hat".capitalize())
+# method capitalises the first word of the sentance(String)- string doesn't have concept of grammatical rules
+
+print("The cat in the hat".count("the"))
+# method counts how many times the word occurs for example 'the' occurs only once. Need quotations within brackets of word you're trying to find.
+
+print("The cat in the hat".find("in"))
+# method tells you WHERE to find the word 'in'- in this case following zero-index in python, the word 'in' is 9 characters in
+
+print("The cat in the hat".replace("hat","bag"))
+# method replaces whatever word you would like to replace with another e.g hat to bag
+
+print("The cat in the hat".strip("The"))
+# Main purpose get's rid of spaces but only at the start or end of the sting. Can also remove the word that is within the brackets at the end.
+
+print("12345".isnumeric())
+# gives a boolean answer. It is either True or False that the code is numeric. The answer is true as within the speech marks is a whole number.
+
+print("hello, my name is Gemma, I am 26 years old".split(","))
+# method, seperates each work after commor 
+
+print("#banana#strawberry#cherry#grapes".split("#"))
+# method- splits string into list format
+
+print("The cat in the hat".swapcase())
+# changes the capitlize letter to lowercase and the lowercase changes to uppercase.
+
+print("All around the world".upper()[7])
+
+print("All Around The World"[7].upper())
+# both these do the same thing- 7 characters into the string will be changed to a capatized letter.
+
