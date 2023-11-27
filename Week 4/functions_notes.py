@@ -46,19 +46,19 @@
 # coffee_order("Large", "Vanilla Latte")
 
 # coffee_order((input("What size coffee do you want to order"")), input("What coffee would you like?"))
-# why do i have to use speech marks for this one and not previous example
+# # why do i have to use speech marks for this one and not previous example
 
-# SCOPE- only exit within the Function
+# # SCOPE- only exit within the Function
 
-balance = 1000
+# balance = 1000
 
-def cash_withdrawel(amount, accnum):
-    global balance
-    print(f"You have {balance}")
-    print(f"You are Withdrawing {amount} from {accnum}")
-    balance = balance - amount
-    print(f"You now have {balance}")
+# def cash_withdrawel(amount, accnum):
+#     global balance
+#     print(f"You have {balance}")
+#     print(f"You are Withdrawing {amount} from {accnum}")
+#     balance = balance - amount
+#     print(f"You now have {balance}")
 
-cash_withdrawel(200, 12345678)
+# cash_withdrawel(200, 12345678)
 
 
